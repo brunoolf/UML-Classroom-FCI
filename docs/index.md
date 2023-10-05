@@ -49,7 +49,7 @@
 
 # Diagrama de casos de uso
 
-*&lt;Diagrama para visualizar o comportamento dos atores&gt;*
+<img src="/docs/assets/casosDeUso.svg">
 
 # Descrição dos casos de uso
 
