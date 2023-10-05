@@ -2,9 +2,7 @@
 <h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/ciencia-da-computacao">Ciência da computação</a></h3>
 
 
-<font size="+12"><center>
-*&lt;Escola infinita, sistema de presenças&gt;*
-</center></font>
+*Escola infinita, sistema de presenças*
 
 **Conteúdo**
 
