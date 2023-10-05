@@ -21,16 +21,17 @@
 
 # Autores
 
-* Bruno Lauand Ferrão - 32217994
-* Raul Vilhora Cardoso Matias - 32267274
+- Bruno Lauand Ferrão - 32217994
+- Raul Vilhora Cardoso Matias - 32267274
 
 
 # Descrição do projeto
 
-*É um projeto no qual simula um sistema de presenças de uma escola, ele irá utlizar de diagramas UML para um bom funcionamento, além disso terá informações como, casos de uso, objetivos funcionais e não funcionais, etc...*
+É um projeto no qual simula um sistema de presenças de uma escola, ele irá utlizar de diagramas UML para um bom funcionamento, além disso terá informações como, casos de uso, objetivos funcionais e não funcionais, etc...
 
 # Análise de requisitos funcionais e não-funcionais
-*Requisitos funcionais:*
+
+**Requisitos funcionais:**
 
 - Fazer a chamada 2x ao dia.
 - Criar relatórios de faltas com os seguintes dados: data, ano do ensino, turma, professor, disciplina e aluno.
@@ -38,7 +39,7 @@
 - Gerar acessibilidade se necessário para os alunos.
 - Reprovar alunos com mais de 25% de faltas.
 
-*Requisitos não-funcionais:*
+**Requisitos não-funcionais:**
 
 - O sistema deve ser implementado utilizando programação web.
 - O sistema deve ser compatível com todos os navegadores web e dispositivos móveis e permitir acessos simultâneos.
@@ -52,11 +53,47 @@
 
 # Descrição dos casos de uso
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+**Relatório de faltas**
+
+1. Ator: Professor
+2. Descrição: Gera um relatório com o histórico de presença.
+3. Fluxo básico
+  - O professor acessa a funcão "Relatório de Faltas".
+  - O sistema mostra o relatório de faltas com o filtro escolhido.
+
+**Registro de faltas**
+
+1. Ator: Professor
+2. Descrição: O professor faz a chamada e registra se o aluno está presente.
+3. Fluxo básico
+  - O sistema apresenta a lista de alunos.
+  - O professor seleciona os alunos à dar falta de acordo com a chamada.
+  - A falta é registrada no momento atual.
+  - O sistema armazena a falta.
+
+**Verificar presença**
+
+1. Ator: Pais / Responsáveis
+2. Descrição: Notificação enviada aos pais/responsáveis de acordo com sua presença em aula.
+3. Fluxo básico
+  - No dia de sábado
+  - O sistema monitora as faltas dos alunos.
+  - Caso aluno tenha suas faltas acima de 20%, o sistema envia um e-mail aos pais/responsáveis.
+
 
 # Diagrama de sequencia
 
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+*Relatório de faltas*
+
+<img src="/docs/assets/relDeFaltas.svg">
+
+*Registro de faltas*
+
+<img src="/docs/assets/regDeFaltas.svg">
+
+*Verificar presença*
+
+<img src="/docs/assets/verPresenca.svg">
 
 # Diagrama de classes
 
