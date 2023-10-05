@@ -14,9 +14,9 @@ Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o 
 
 # Releases
 
-Fase I - Documentação pronta
-Fase II - Adição dos diagramas casos de uso
-Fase III - Descrição dos diagramas casos de uso
-Fase IV - Adição dos diagramas de seguência
+Fase I - Documentação pronta<br>
+Fase II - Adição dos diagramas casos de uso<br>
+Fase III - Descrição dos diagramas casos de uso<br>
+Fase IV - Adição dos diagramas de seguência<br>
 
 Entrega do projeto até a fase IV.
