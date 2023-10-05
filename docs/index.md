@@ -2,7 +2,7 @@
 <h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/ciencia-da-computacao">Ciência da computação</a></h3>
 
 
-**Escola infinita, sistema de presenças**
+# Escola infinita, sistema de presenças
 
 **Conteúdo**
 
@@ -58,40 +58,40 @@
 1. Ator: Professor
 2. Descrição: Gera um relatório com o histórico de presença.
 3. Fluxo básico
-  - O professor acessa a funcão "Relatório de Faltas".
-  - O sistema mostra o relatório de faltas com o filtro escolhido.
+   - O professor acessa a funcão "Relatório de Faltas".
+   - O sistema mostra o relatório de faltas com o filtro escolhido.
 
 **Registro de faltas**
 
 1. Ator: Professor
 2. Descrição: O professor faz a chamada e registra se o aluno está presente.
 3. Fluxo básico
-  - O sistema apresenta a lista de alunos.
-  - O professor seleciona os alunos à dar falta de acordo com a chamada.
-  - A falta é registrada no momento atual.
-  - O sistema armazena a falta.
+   - O sistema apresenta a lista de alunos.
+   - O professor seleciona os alunos à dar falta de acordo com a chamada.
+   - A falta é registrada no momento atual.
+   - O sistema armazena a falta.
 
 **Verificar presença**
 
 1. Ator: Pais / Responsáveis
 2. Descrição: Notificação enviada aos pais/responsáveis de acordo com sua presença em aula.
 3. Fluxo básico
-  - No dia de sábado
-  - O sistema monitora as faltas dos alunos.
-  - Caso aluno tenha suas faltas acima de 20%, o sistema envia um e-mail aos pais/responsáveis.
+   - No dia de sábado
+   - O sistema monitora as faltas dos alunos.
+   - Caso aluno tenha suas faltas acima de 20%, o sistema envia um e-mail aos pais/responsáveis.
 
 
 # Diagrama de sequencia
 
-*Relatório de faltas*
+**Relatório de faltas**
 
 <img src="/docs/assets/relDeFaltas.svg">
 
-*Registro de faltas*
+**Registro de faltas**
 
 <img src="/docs/assets/regDeFaltas.svg">
 
-*Verificar presença*
+**Verificar presença**
 
 <img src="/docs/assets/verPresenca.svg">
 
