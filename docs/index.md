@@ -2,7 +2,7 @@
 <h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/ciencia-da-computacao">Ciência da computação</a></h3>
 
 
-# *Escola infinita, sistema de presenças*
+**Escola infinita, sistema de presenças**
 
 **Conteúdo**
 
@@ -27,10 +27,24 @@
 
 # Descrição do projeto
 
-*&lt;Introdução do projeto&gt;*
+*É um projeto no qual simula um sistema de presenças de uma escola, ele irá utlizar de diagramas UML para um bom funcionamento, além disso terá informações como, casos de uso, objetivos funcionais e não funcionais, etc...*
 
 # Análise de requisitos funcionais e não-funcionais
-*&lt;Descrição dos requisitos&gt;*
+*Requisitos funcionais:*
+
+- Fazer a chamada 2x ao dia.
+- Criar relatórios de faltas com os seguintes dados: data, ano do ensino, turma, professor, disciplina e aluno.
+- Enviar notificações por e-mail para pais ou responsáveis caso as faltas estiverem acima de 20%.
+- Gerar acessibilidade se necessário para os alunos.
+- Reprovar alunos com mais de 25% de faltas.
+
+*Requisitos não-funcionais:*
+
+- O sistema deve ser implementado utilizando programação web.
+- O sistema deve ser compatível com todos os navegadores web e dispositivos móveis e permitir acessos simultâneos.
+- O sistema tem que possuir um banco de dados e se comunicar com ele.
+- O usuário deve criar um cadastro com senha no site.
+- O sistema de semana em semana verificará as porcentagens de presença a partir de um relatório individual gerado, essa verificação ocorrerá de sabádo. Caso esteja acima de 20% comunicar os pais ou responsável.
 
 # Diagrama de casos de uso
 
