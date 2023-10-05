@@ -113,4 +113,5 @@
 
 # Referências
 
-*&lt;Lista de referências&gt;*
+*Material disponibilizado no moodle.*
+*Site ( draw.io ) para criação dos diagramas.*
