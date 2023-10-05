@@ -53,7 +53,7 @@
 
 # Descrição dos casos de uso
 
-**Relatório de faltas**
+**Relatório de faltas:**
 
 1. Ator: Professor
 2. Descrição: Gera um relatório com o histórico de presença.
@@ -61,7 +61,7 @@
    - O professor acessa a funcão "Relatório de Faltas".
    - O sistema mostra o relatório de faltas com o filtro escolhido.
 
-**Registro de faltas**
+**Registro de faltas:**
 
 1. Ator: Professor
 2. Descrição: O professor faz a chamada e registra se o aluno está presente.
@@ -71,7 +71,7 @@
    - A falta é registrada no momento atual.
    - O sistema armazena a falta.
 
-**Verificar presença**
+**Verificar presença:**
 
 1. Ator: Pais / Responsáveis
 2. Descrição: Notificação enviada aos pais/responsáveis de acordo com sua presença em aula.
@@ -83,15 +83,15 @@
 
 # Diagrama de sequencia
 
-**Relatório de faltas**
+## Relatório de faltas
 
 <img src="/docs/assets/relDeFaltas.svg">
 
-**Registro de faltas**
+## Registro de faltas
 
 <img src="/docs/assets/regDeFaltas.svg">
 
-**Verificar presença**
+## Verificar presença
 
 <img src="/docs/assets/verPresenca.svg">
 
