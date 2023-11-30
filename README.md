@@ -18,5 +18,6 @@ Fase I - Documentação pronta<br>
 Fase II - Adição dos diagramas casos de uso<br>
 Fase III - Descrição dos diagramas casos de uso<br>
 Fase IV - Adição dos diagramas de seguência<br>
-
-Entrega do projeto até a fase IV.
+Fase V - Adição do diagrama de classes<br>
+Fase VI - Adição do diagrama de componentes<br>
+Fase VII - Adição do diagrama de implantação e decisão de arquitetura<br>
