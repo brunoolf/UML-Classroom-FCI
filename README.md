@@ -20,4 +20,5 @@ Fase III - Descrição dos diagramas casos de uso<br>
 Fase IV - Adição dos diagramas de seguência<br>
 Fase V - Adição do diagrama de classes<br>
 Fase VI - Adição do diagrama de componentes<br>
-Fase VII - Adição do diagrama de implantação e decisão de arquitetura<br>
+Fase VII - UML componentes e decisão de arquitetura<br>
+Fase VIII - Adição diagrama de implantação<br>
