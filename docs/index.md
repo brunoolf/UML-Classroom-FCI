@@ -105,21 +105,25 @@
 
 # Decisões de arquitetura
 
-- Aplicação web desenvolvida
+**Diagramas casos de uso:**
 
-- Banco de dados para armazenar os dados do sistema
+Mostra as interações entre os usuários e o sistema. Principais usuários são os professores, diretoria, estudantes e pais/responsáveis. Eles identificados incluem "Registro de faltas", "Relatório de faltas", "Notificação" e "Acessibilidade".
 
-- Hospedagem na nuvem para disponibilizar o acesso via navegador web
+**Diagramas de sequência:**
 
-- APIs para possibilitar a integração com outros sistemas (por exemplo, para enviar e-mails ou notificações push)
+Mostra a interação entre objetos ao longo do tempo. Para o sistema de acompanhar a frequência, sequências cruciais foram identificadas, como o processo de registro de faltas pelos professores, geração de relatórios e verificação de porcentagens.
 
-- Front-end responsivo para garantir a acessibilidade e adaptação a dispositivos móveis
+**Diagramas de classes:**
 
-- Autenticação e autorização com tokens para controlar o acesso
+Mostram detalhadamente a estrutura estática do sistema, incluindo classes, atributos e relacionamentos. Classes identificadas incluem "Registro de Faltas", "Professor", "Acessibilidade", "Relatório de Faltas", "Porcentagem" e "Pais e Responsáveis".
 
-- Fila para processamentos (envio de e-mails em segundo plano)
+**Diagramas de componentes:**
 
-A aplicação web disponibilizaria dados e relatórios em tempo real sobre a situação de cada aluno. Notificações automáticas seriam disparadas conforme as regras de faltas configuradas.
+Representa a estrutura física do sistema, identificando os principais componentes e suas interações. A decisão foi tomada no sentido de modularizar o sistema, destacando componentes como "Módulo de Autenticação", "Módulo de Chamada", "Módulo de Relatórios" e "Módulo de Notificação".
+
+**Diagramas de implementação:**
+
+Mostra como o sistema será instalado no hardware.
 
 # Diagrama de implantação
 
