@@ -97,11 +97,11 @@
 
 # Diagrama de classes
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+<img src="/docs/assets/DiagramaClasses.svg">
 
 # Diagrama de Componentes
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+<img src="/docs/assets/DiagramaComp.svg">
 
 # Decisões de arquitetura
 
@@ -123,7 +123,7 @@ A aplicação web disponibilizaria dados e relatórios em tempo real sobre a sit
 
 # Diagrama de implantação
 
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
+<img src="/docs/assets/DiagramaImp.svg">
 
 # Referências
 
